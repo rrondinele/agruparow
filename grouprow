@@ -1,0 +1,6 @@
+import pandas as pd
+ut = pd.read_excel("C:/Users/rondinelecarvalho/Desktop/usuo_mutuo/oxi.xlsx")
+ut_pts = ut.groupby('PONTO')
+type(ut_pts)
+ut_pts.groups
+
